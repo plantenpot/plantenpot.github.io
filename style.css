@@ -54,6 +54,8 @@ body
     right: 0; 
     margin-left: auto; 
     margin-right: auto; 
+
+    width: 30%;
 }
 
 #Introduction_button:hover ul
