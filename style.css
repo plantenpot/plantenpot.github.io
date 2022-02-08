@@ -1,0 +1,389 @@
+body
+{
+    margin: 0px;
+    padding: 0px;
+
+    background-color: #FAFAF0;
+}
+
+.aligned{
+    display: flex;
+    align-items: center;
+}
+
+.center
+{
+    margin: 0 auto;
+    text-align: center;
+}
+
+.text
+{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+/* Introduction */
+
+#Introduction_image
+{   
+    margin-top: 10%;
+
+    width: 125px;
+    border-radius: 50%;
+}
+
+#Introduction_text
+{
+    font-size: 20px;
+}
+
+#Introduction_button
+{
+    border: 1px solid black;
+    border-radius: 20px;
+    background-color: #FAFAF0;
+
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+    font-size: 18px;
+
+    position: absolute;
+    left: 0; 
+    right: 0; 
+    margin-left: auto; 
+    margin-right: auto; 
+}
+
+#Introduction_button:hover ul
+{
+    margin-bottom: 0;
+    display: block;
+}
+
+#Introduction_button ul
+{
+    display: none;
+    padding: 5px;
+}
+
+#Introduction_button ul li
+{
+
+    border-radius: 10px;
+
+    list-style: none;
+    padding: 10px;
+
+    transition: .3s;
+}
+
+#Introduction_button ul li a
+{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: black;
+    text-decoration: none;
+}
+
+#Introduction_button ul li:hover
+{
+    background-color: #EAEAE0;
+}
+
+.Who_am_I
+{
+    margin-top: 10%;
+    width: 56%;
+
+    color: white;
+}
+
+.ghostwhite
+{
+    background-color: #1C4670;
+}
+
+.skillDisplay
+{
+    margin-left: 20%;
+}
+
+.html
+{
+    float: left;
+
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+    width: 20%;
+    background-color: #278AB0;
+}
+
+.html div
+{
+    width: 75%;
+    background-color: #1DC690;
+}
+
+.html p
+{
+    margin: 0;
+}
+
+.csharp
+{
+    float: 	right;
+
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+    width: 20%;
+    background-color: #278AB0;
+
+    margin-right: 20%;
+}
+
+.csharp div
+{
+    width: 60%;
+    background-color: #1DC690;
+}
+
+.csharp p
+{
+    margin: 0;
+}
+
+
+.lua
+{
+    float: left;
+
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+    width: 20%;
+    background-color: #278AB0;
+
+    margin-top: 3%;
+}
+
+.lua div
+{
+    width: 55%;
+    background-color: #1DC690;
+}
+
+.lua p
+{
+    margin: 0;
+}
+
+.php
+{
+    float: right;
+
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+    width: 20%;
+    background-color: #278AB0;
+
+    margin-right: 20%;
+    margin-top: 3%;
+}
+
+.php div
+{
+    width: 50%;
+    background-color: #1DC690;
+}
+
+.php p
+{
+    margin: 0;
+}
+
+.JS
+{
+    
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+    width: 20%;
+    background-color: #278AB0;
+
+    margin-top: 10%;
+}
+
+.JS div
+{
+    width: 15%;
+    background-color: #1DC690;
+}
+
+.JS p
+{
+    margin: 0;
+}
+
+/* Portfolio */
+
+.portfolioButton
+{
+    background-color: ghostwhite;
+    border-radius: 10px;
+    box-shadow: 3px 5px;
+    border: none;
+    margin-bottom: 5%;
+    margin-left: 14%;
+    width: 15%;
+
+    transition: .3s;
+}
+
+.portfolioButton:hover
+{
+    transform: scale(1.1);
+}
+
+.portfolioButton img
+{
+    width: 100%;
+
+    border-radius: 10px;
+
+    transition: 0.3s;
+}
+
+.portfolioButton img:hover
+{
+    cursor: pointer;
+}
+
+/* Portfolio Pagina's*/
+
+/* Gun Chaos */
+.portfolio-image
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+    width: 15%;
+
+    border-radius: 10px;
+}
+
+.portfolio-text
+{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+    margin-top: 2%;
+}
+
+.portfolio-alinea
+{
+    padding-top: 5%;
+    padding-bottom: 5%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.portfolio-alinea p
+{
+    margin-top: 2%;
+    text-align: justify;
+}
+
+.gif
+{
+    height: 30%;
+
+    border-radius: 10px;
+}
+
+.previous
+{
+    font-size: 20px;
+    border: none;
+    background: transparent;
+}
+
+.previous a
+{
+    text-decoration: none;
+    color: black;
+}
+
+.language
+{
+    font-size: 15;
+    border: none;
+    background: transparent;
+}
+
+.language a
+{
+    text-decoration: none;
+    color: black;
+}
+
+.footer
+{
+    background-color: #1C4670;
+
+    display: flex;
+}
+
+.footer h2
+{
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.footer div
+{
+    margin: auto;
+
+    margin-bottom: 1%;
+}
+
+.footer button
+{
+    background-color: #278AB0;
+
+    padding: 15px;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-top: .5%;
+    margin-right: 5%;
+    
+    border: 3px solid #1DC690;
+    border-radius: 10px;
+
+    color: white;
+
+    transition: .3s;
+
+    outline: none;
+}
+
+.footer button:hover
+{
+    cursor: pointer;
+    background-color: #1DC690;
+}
+
+.footer a
+{
+    display: block;
+
+    margin-bottom: 5%;
+
+    color: white;
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+    transition: .3s;
+}
+
+.footer a:hover
+{
+    color: #1DC690;
+}
