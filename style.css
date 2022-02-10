@@ -29,14 +29,15 @@ body
 
     width: 5%;
 
-    padding-left: 0.5%;
-    padding-right: 0.5%;
     padding-top: 0.2%;
-    padding-bottom: 0.5%;
+    padding-bottom: 0.3%;
 
     margin-left: 75%;
 
     position: fixed;
+
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
 }
 /* Introduction */
 
