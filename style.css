@@ -35,6 +35,8 @@ body
     padding-bottom: 0.5%;
 
     margin-left: 75%;
+
+    position: fixed;
 }
 /* Introduction */
 
