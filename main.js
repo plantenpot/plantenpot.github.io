@@ -1,3 +1,17 @@
+var changedLanguage = false;
+
+function changeLanguage()
+{
+    if(!changedLanguage)
+    {
+        changedLanguage = true
+        document.getElementById("dutchLanguage").style.color = "red";
+    } else
+    {
+        changedLanguage = false;
+    }
+}
+
 function changeText()
 {
     document.getElementById("second").style.display = "none";
