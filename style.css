@@ -63,11 +63,6 @@ body
     border-radius: 20px;
     background-color: #FAFAF0;
 
-    padding-top: 5px;
-    padding-bottom: 5px;
-    padding-left: 20px;
-    padding-right: 20px;
-
     font-size: 18px;
 
     position: absolute;
@@ -132,118 +127,103 @@ body
     margin-left: 20%;
 }
 
+.skillText
+{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    right: 0;
+    color: white;
+}
+.skillText span
+{
+    font-weight: bold;
+}
+
 .html
 {
-    float: left;
-
+    position: relative;
+    padding: 0;
+    height: 1%;
+    padding-right: 20%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 
-    width: 20%;
     background-color: #278AB0;
 }
-
-.html div
+#htmlBar
 {
-    width: 75%;
+    width: 800%;
     background-color: #1DC690;
-}
-
-.html p
-{
-    margin: 0;
 }
 
 .csharp
 {
-    float: 	right;
-
+    position: relative;
+    padding: 0;
+    height: 1%;
+    padding-right: 20%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 
-    width: 20%;
     background-color: #278AB0;
-
-    margin-right: 20%;
 }
 
-.csharp div
+#csharpBar
 {
-    width: 60%;
+    width: 800%;
     background-color: #1DC690;
 }
-
-.csharp p
-{
-    margin: 0;
-}
-
 
 .lua
 {
-    float: left;
-
+    position: relative;
+    padding: 0;
+    height: 1%;
+    padding-right: 20%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 
-    width: 20%;
     background-color: #278AB0;
-
-    margin-top: 3%;
 }
 
-.lua div
+#luaBar
 {
-    width: 55%;
+    width: 800%;
     background-color: #1DC690;
-}
-
-.lua p
-{
-    margin: 0;
 }
 
 .php
 {
-    float: right;
-
+    position: relative;
+    padding: 0;
+    margin-top: 10%;
+    height: 1%;
+    padding-right: 20%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 
-    width: 20%;
     background-color: #278AB0;
-
-    margin-right: 20%;
-    margin-top: 3%;
 }
 
-.php div
+#phpBar
 {
-    width: 50%;
+    width: 800%;
     background-color: #1DC690;
-}
-
-.php p
-{
-    margin: 0;
 }
 
 .JS
 {
-    
+    position: relative;
+    padding: 0;
+    margin-top: 10%;
+    height: 1%;
+    padding-right: 20%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 
-    width: 20%;
     background-color: #278AB0;
-
-    margin-top: 10%;
 }
 
-.JS div
+#jsBar
 {
-    width: 15%;
+    width: 800%;
     background-color: #1DC690;
-}
-
-.JS p
-{
-    margin: 0;
 }
 
 /* Portfolio */
@@ -254,9 +234,6 @@ body
     border-radius: 10px;
     box-shadow: 3px 5px;
     border: none;
-    margin-bottom: 5%;
-    margin-left: 14%;
-    width: 15%;
 
     transition: .3s;
 }
@@ -358,13 +335,6 @@ body
 {
     color: white;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-
-.footer div
-{
-    margin: auto;
-
-    margin-bottom: 1%;
 }
 
 .footer button
