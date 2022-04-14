@@ -137,6 +137,8 @@ body
 }
 .skillText span
 {
+    margin-left: 2%;
+    color: #1DC690;
     font-weight: bold;
 }
 
