@@ -149,6 +149,7 @@ body
     background-color: #1C4670;
 }
 
+<<<<<<< Updated upstream
 .skillText
 {
     position: absolute;
@@ -156,9 +157,23 @@ body
     left: 0%;
     right: 0;
     color: white;
+=======
+.skill
+{
+    padding-left: 1.5%;
+    font-weight: bold;
+    color: #1DC690;
+}
+
+.skillDisplay
+{
+    color: white;
+    margin-left: 20%;
+>>>>>>> Stashed changes
 }
 .skillText span
 {
+<<<<<<< Updated upstream
     margin-left: 2%;
     color: #1DC690;
     font-weight: bold;
@@ -168,6 +183,13 @@ body
 {
     width: 5%;
     background-color: #1DC690;
+=======
+    float: left;
+
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+    width: 20%;
+>>>>>>> Stashed changes
 }
 
 .html
@@ -177,6 +199,7 @@ body
     width: 22%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 
+<<<<<<< Updated upstream
     background-color: #278AB0;
 }
 
@@ -186,6 +209,13 @@ body
     padding: 0;
     width: 22%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+=======
+    width: 20%;
+
+    margin-right: 20%;
+}
+
+>>>>>>> Stashed changes
 
     background-color: #278AB0;
 }
@@ -197,7 +227,18 @@ body
     width: 22%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 
+<<<<<<< Updated upstream
     background-color: #278AB0;
+=======
+    width: 20%;
+
+    margin-top: 3%;
+}
+
+.lua p
+{
+    margin: 0;
+>>>>>>> Stashed changes
 }
 
 .php
@@ -207,7 +248,19 @@ body
     width: 22%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 
+<<<<<<< Updated upstream
     background-color: #278AB0;
+=======
+    width: 20%;
+
+    margin-right: 20%;
+    margin-top: 3%;
+}
+
+.php p
+{
+    margin: 0;
+>>>>>>> Stashed changes
 }
 
 .JS
@@ -217,10 +270,34 @@ body
     width: 22%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 
+<<<<<<< Updated upstream
     background-color: #278AB0;
+=======
+    width: 20%;
+
+    margin-top: 10%;
+}
+
+.JS p
+{
+    margin: 0;
+>>>>>>> Stashed changes
 }
 
 /* Portfolio */
+
+.project-date
+{
+    position: absolute;
+    top: 85%;
+    width: 100%;
+    text-align: center;
+
+    color: white;
+    font-weight: bold;
+
+    background-color: black;
+}
 
 .portfolioButton
 {
