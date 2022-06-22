@@ -45,9 +45,9 @@ body
 .previousButton
 {
     text-align: center;
-    background-color: white;
+    background-color: #FAFAF0;
 
-    width: 5%;
+    width: 10%;
 
     padding-top: 0.2%;
     padding-bottom: 0.3%;
