@@ -42,6 +42,33 @@ body
     border-bottom-right-radius: 10px;
 }
 
+.previousButton
+{
+    text-align: center;
+    background-color: white;
+
+    width: 5%;
+
+    padding-top: 0.2%;
+    padding-bottom: 0.3%;
+
+    border: none;
+    border-bottom-right-radius: 10px;
+}
+
+.previousButton a
+{
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+#englishLanguage
+{
+    font: 1000px;
+    color: red;
+}
+
 /* Introduction */
 
 #Introduction_image
@@ -264,22 +291,9 @@ body
     border-radius: 10px;
 }
 
-.previous
-{
-    font-size: 20px;
-    border: none;
-    background: transparent;
-}
-
-.previous a
-{
-    text-decoration: none;
-    color: black;
-}
-
 .language
 {
-    font-size: 15;
+    font-size: 15px;
     border: none;
     background: transparent;
 }
