@@ -222,6 +222,15 @@ body
 
 /* Portfolio */
 
+#yearButton
+{
+    background-color: #1C4670;
+    border: none;
+
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
 .project-date
 {
     position: absolute;

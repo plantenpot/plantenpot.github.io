@@ -110,15 +110,39 @@
         
     </div>
 
-    <div class="container">
-        <!-- Portfolio -->
+    <!-- Portfolio -->
+    <div class="container" style="margin-bottom: 5%;">
         <div class="center text" style="margin-bottom: 3%; margin-top: 5%;">
             <h1>My previous projects:</h1>
         </div>
 
-        <!-- Games -->
-        <h2 class="center text" style="padding-bottom: 2%; margin-bottom: 2%;">Games</h2>
-        <div class="container">
+        <div class="dropdown" style="margin-bottom: 2%;">
+            <button class="btn btn-secondary dropdown-toggle" id="yearButton" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                2022
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <a class="dropdown-item" onclick="changeYear(2019)">2019</a>
+                <a class="dropdown-item" onclick="changeYear(2020)">2020</a>
+                <a class="dropdown-item" onclick="changeYear(2021)">2021</a>
+                <a class="dropdown-item" onclick="changeYear(2022)">2022</a>
+            </div>
+        </div>
+
+        <!-- 2019 -->
+        <div class="container" id="2019">
+            <div class="row">
+                <div class="col-xl-2 offset-md-1">
+                    <a href="Engels/gunchaos.html" class="portfolioButton"><img src="img/Gun-Chaos-img.png" alt="Gun Choas Icon"></a>
+                </div>
+
+                <div class="col-xl-2 offset-md-1">
+                    <a href="Engels/gameuniverse.html" class="portfolioButton"><img src="img/gameuniverse_homepage_icon.png" alt="GameUniverse Icon"></a>
+                </div>
+            </div>
+        </div>
+
+        <!-- 2020 -->
+        <div class="container" id="2020">
             <div class="row">
                 <div class="col-xl-2 offset-md-1">
                     <a href="Engels/gunchaos.html" class="portfolioButton"><img src="img/Gun-Chaos-img.png" alt="Gun Choas Icon"></a>
@@ -129,17 +153,24 @@
                 </div>
             </div>
         </div>
-        <!-- Websites -->
-        <h2 class="center text" style="padding-bottom: 2%; margin-bottom: 2%; margin-top: 5%;">Websites</h2>
-        <div class="container" style="margin-bottom: 5%;">
+
+        <!-- 2021 -->
+        <div class="container" id="2021">
             <div class="row">
                 <div class="col-xl-2 offset-md-1">
                     <a href="Engels/Toss_A_Coin.html" class="portfolioButton"><img src="img/TossACoin.png" alt="Toss A Coin Icon"></a>
                 </div>
 
                 <div class="col-xl-2 offset-md-1">
-                    <a href="Engels/gameuniverse.html" class="portfolioButton"><img src="img/gameuniverse_homepage_icon.png" alt="GameUniverse Icon"></a>
+                    <a href="Engels/bullethell.html" class="portfolioButton"><img src="img/bullethell.png" alt="Bullethell Icon"></a>
                 </div>
+            </div>
+        </div>
+
+        <!-- 2022 -->
+        <div class="container" id="2022">
+            <div class="row">
+                <h4>No projects yet..</h4>
             </div>
         </div>
     </div>
