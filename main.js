@@ -27,7 +27,7 @@ let year2022 = document.getElementById('2022');
 
 year2019.style.display = 'none';
 year2020.style.display = 'none';
-year2021.style.display = 'none';
+year2022.style.display = 'none';
 
 function changeYear(year)
 {

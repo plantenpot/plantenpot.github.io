@@ -235,19 +235,6 @@ body
     padding-right: 20px;
 }
 
-.project-date
-{
-    position: absolute;
-    top: 85%;
-    width: 100%;
-    text-align: center;
-
-    color: white;
-    font-weight: bold;
-
-    background-color: black;
-}
-
 .portfolioButton
 {
     background-color: ghostwhite;
