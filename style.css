@@ -3,7 +3,7 @@ body
     margin: 0px;
     padding: 0px;
 
-    background-color: #FAFAF0;
+    background-color: ivory;
 }
 
 .aligned{
@@ -70,6 +70,11 @@ body
 }
 
 /* Introduction */
+
+.introduction
+{
+    padding-bottom: 10%;
+}
 
 #Introduction_image
 {   
@@ -138,7 +143,6 @@ body
 
 .Who_am_I
 {
-    margin-top: 10%;
     width: 56%;
 
     color: white;
